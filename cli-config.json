@@ -25,7 +25,7 @@
               "suppressFilteredData": true,
               "characterEncoding": "utf-8",
               "exportExpandedData": true,
-              "filters": [{"name":"kw", "type":"TestCaseSet"}],
+              "filters": [],
               "exportExecutionProtocols": false,
               "exportDescriptionFields": true,
               "outputFormattedText": true
