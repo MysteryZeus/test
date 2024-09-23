@@ -1,0 +1,51 @@
+{
+  "configuration": [
+    {
+      "server_url": "https://172.26.0.1:9443/api/1/",
+      "verify": false,
+      "basicAuth": "dHQtYWRtaW46YWRtaW4=",
+      "loginname": null,
+      "password": null,
+      "actions": [
+        {
+          "parameters": {
+            "outputPath": "/report.zip",
+            "projectPath": [
+              "test",
+              "tov",
+              "tc"
+            ],
+            "tovKey": "871504",
+            "cycleKey": "871506",
+            "reportRootUID": "itba-TT-13622",
+            "report_config": {
+              "exportAttachments": true,
+              "exportDesignData": true,
+              "reportRootUID": "itba-TT-13622",
+              "suppressFilteredData": true,
+              "characterEncoding": "utf-8",
+              "exportExpandedData": true,
+              "filters": [{"name":"kw", "type":"TestCaseSet"}],
+              "exportExecutionProtocols": false,
+              "exportDescriptionFields": true,
+              "outputFormattedText": true
+            },
+            "filters": []
+          },
+          "type": "ExportXMLReport"
+        }
+      ]
+    }
+  ],
+  "loggingConfiguration": {
+    "console": {
+      "logLevel": "INFO",
+      "logFormat": "%(message)s"
+    },
+    "file": {
+      "logLevel": "DEBUG",
+      "logFormat": "%(asctime)s - %(filename)s:%(lineno)d - %(levelname)8s - %(message)s",
+      "fileName": "testbench-cli-reporter.log"
+    }
+  }
+}
