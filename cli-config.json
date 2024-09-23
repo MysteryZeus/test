@@ -30,7 +30,7 @@
               "exportDescriptionFields": true,
               "outputFormattedText": true
             },
-            "filters": []
+            "filters": [{"name":"kw", "type":"TestCaseSet"}]
           },
           "type": "ExportXMLReport"
         }
