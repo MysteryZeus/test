@@ -19,7 +19,7 @@
   },
   "forcedImport": {
     "libraries": [],
-    "resources": ["all_resources.resource"],
+    "resources": ["importer.resource"],
     "variables": []
   },
   "generationDirectory": "{root}/Generated",
