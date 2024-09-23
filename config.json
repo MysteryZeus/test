@@ -24,7 +24,7 @@
   },
   "generationDirectory": "{root}/Generated",
   "createOutputZip": false,
-  "resourceDirectory": "{root}/Resources",
+  "resourceDirectory": "{root}",
   "logSuiteNumbering": false,
   "clearGenerationDirectory": true,
   "loggingConfiguration": {
