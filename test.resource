@@ -1,0 +1,3 @@
+*** Keywords ***
+test
+    Log    test
