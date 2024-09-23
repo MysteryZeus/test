@@ -9,7 +9,7 @@
       "actions": [
         {
           "parameters": {
-            "outputPath": "/report.zip",
+            "outputPath": "report.zip",
             "projectPath": [
               "test",
               "tov",
